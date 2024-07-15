@@ -5,19 +5,6 @@
       "memory": 400,
       "maxDuration": 25
     }
-  },
-  "build": {
-    "env": {
-      "PNPM_VERSION": "9.5.0"
-    }
-  },
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node",
-      "config": {
-        "installCommand": "npm install -g pnpm@9.5.0 && pnpm install"
-      }
-    }
-  ]
+  }
+
 }
