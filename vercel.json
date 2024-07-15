@@ -8,7 +8,7 @@
   }
   "build": {
     "env": {
-      "PNPM_VERSION": "6.32.3" // Specify the desired version of pnpm here
+      "PNPM_VERSION": "9.5.0"
     }
   },
 }
