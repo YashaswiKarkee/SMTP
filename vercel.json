@@ -6,4 +6,9 @@
       "maxDuration": 25
     }
   }
+  "build": {
+    "env": {
+      "PNPM_VERSION": "6.32.3" // Specify the desired version of pnpm here
+    }
+  },
 }
